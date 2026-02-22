@@ -3,7 +3,7 @@
 <head>
   <title>pasta_real's Website</title>
   <link rel="icon" type="image/png" href="pasta.png">
-  <meta property="og:image" content="background.jpg">
+  <meta property="og:image" content="website.png">
   <meta property="og:type" content="website" />
   <meta property="og:title" content="pasta_real's Website">
   <meta property="og:description" content="pasta_real's Website!">
@@ -12,6 +12,10 @@
   <meta name="keywords" content="pasta_real, Marble Blast, pasta, yeehaw, yeehawpasta, pasta_fake">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:title" content="pasta_real's Website">
+  <meta name="twitter:description" content="pasta_real's Website!">
+  <meta name="twitter:image" content="website.png">
+  <meta name="twitter:card" content="pasta.png">
   <style>
   .content {
     display: inline;
@@ -76,6 +80,12 @@
     padding: 12px 12px;
     text-decoration: none;
   }
+  
+  .navbar .iconnavbar {
+    margin: 0;
+	padding: 0;
+	border: 0;
+  }
 
   ul li img {
     display: block;
@@ -137,6 +147,72 @@
     float: right;
     position: relative;
   }
+  
+  .list {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: absolute;
+	left: 0;
+  }
+
+  .list div {
+    height: 35%;
+	width: 15%;
+    display: inline;
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+  
+  .list a {
+    height: 35%;
+	width: 15%;
+    display: inline;
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+  
+  .list div h2 {
+    text-align: center;
+  }
+  
+  .list div p {
+    text-align: center;
+	font-size: 18px;
+  }
+  
+  .list div img {
+    display: block;
+    margin: auto;
+    align: center;
+	height: 80%;
+	width: 80%;
+  }
+  
+  .top-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .below-text {
+    margin-top: 15px;
+  }
+  
+  .socials {
+    clear: both;
+	margin: 10px;
+  }
   </style>
 </head>
 
@@ -149,46 +225,52 @@ body {
 }
 </style> 
 <ul class="navbar";>
-  <li><img src="pasta.png" alt="pasta_real's Website" width="40" height="40"/></li>
-  <li><a href="https://pastareal.github.io">Home</a></li>
-  <li><a href="https://pastareal.github.io/news">News</a></li>
+  <li><a href="index.html" class="iconnavbar"><img src="pasta.png" alt="pasta_real's Website" width="40" height="40"/></a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
   <div class="dropdown">
     <button class="dropbtn">Games ▼
     </button>
     <div class="dropdown-content">
-      <a href="https://pastareal.github.io/marbleblastmods/">Marble Blast Modifications</a>
-	  <a href="https://pastareal.github.io/mbwonder/">Marble Blast Wonder</a>
-      <a href="https://pastareal.github.io/eaglercraft">Eaglercraft</a>
+      <a href="marbleblastmods/index.html">Marble Blast Modifications</a>
+	  <a href="mbwonder/index.html">Marble Blast Wonder</a>
+	  <a href="wildron/index.html">Marble Blast Wildron</a>
     </div>
   </div> 
   <div class="dropdown">
     <button class="dropbtn">Others ▼
     </button>
     <div class="dropdown-content">
-      <a href="https://pastareal.github.io/dlsm">More Stuff</a>
+      <a href="dlsm/index.html">More Stuff</a>
     </div>
   </div>
-  <li><a href="https://pastareal.github.io/contact">Contact</a></li>
-  <li><a href="https://pastareal.github.io/about">About</a></li>
+  <li><a href="contact/index.html">Contact</a></li>
+  <li><a href="about/index.html">About</a></li>
   <script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld&down=async" async></script>
   <noscript><a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld" border="0" title="website counter" alt="website counter"></a></noscript>
   <div class="counter" id="sfc96b9ybfjs7klqzslpd6frfxynu4qf5ld"></div>
 </ul>
 <div class="content">
   <div class="firsttext">
-    <h3>Hi! I'm pasta_real. I am a coder, a web and software developer based in Vietnam.</h3>
-    <h3>Socials:</h3>
-    <h4><a href="https://www.youtube.com/@pasta_real"><span>YouTube</span></a></h4>
-	<h4><a href="https://github.com/pastareal"><span>Github</span></a></h4>
-	<h4><a href="https://archive.org/details/@no_name982"><span>Internet Archive</span></a></h4>
-	<h4>Discord: pasta_fake</h4>
-	<h4><a href="https://www.speedrun.com/users/pasta_real"><span>Speedrun.com</span></a></h4>
-	<h4><a href="https://www.twitch.tv/pasta_real"><span>Twitch</span></a></h4>
-	<h4><a href="https://x.com/yeehawpasta"><span>Twitter</span></a></h4>
-	<h4><a href="https://marbleblast.com/index.php/forum/user/30859-pasta-real"><span>MarbleBlast.com</span></a></h4>
-	<h4><a href="https://marbleland.vaniverse.io/profile/72"><span>Marbleland</span></a></h4>
+    <h3 style="color:white;">Hi! I'm pasta_real. I am a Marble Blast gamer, a web and software developer based in Vietnam. (Currently developing in Marble Blast Wildron.)</h3>
+    <div class="list">
+      <a href="wildron/index.html"><div>
+        <img src="W.png" alt="Marble Blast Wildron">
+    	<h2>Marble Blast Wildron</h2>
+      </div></a>
+      <a href="marbleblastmods/index.html"><div>
+        <img src="black.jpg" alt="Marble Blast Mods">
+    	<h2>Marble Blast Mods</h2>
+      </div></a>
+      <a href="mbwonder/index.html"><div>
+        <img src="wonder.png" alt="Marble Blast Wonder">
+    	<h2>Marble Blast Wonder</h2>
+    </div></a> 
   </div>
-    <!-- Slideshow container -->
+</div>
+  </div></a> 
+</div>
+<div>
     <div class="hell">
       <div class="slideshow-container" style="background-color: DodgerBlue;">
 
@@ -201,14 +283,14 @@ body {
 
         <div class="mySlides fade">
           <div class="numbertext">2 / 3</div>
-          <img src="wildron.jpg" style="width:100%; height:100%;" alt="Marble Blast Wildron - Coming Late 2026">
-          <div class="text">Marble Blast Wildron - Coming Late 2026</div>
+          <img src="wildron.png" style="width:100%; height:100%;" alt="Marble Blast Wildron - Coming Late 2026">
+          <div><h4 style="margin: 0; padding: 0;"><a href="wildron/index.html"><span>Marble Blast Wildron - THE DEMO IS RELEASED!!!</span></a></h4></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">3 / 3</div>
           <img src="mods.jpg" style="width:100%; height:100%;" alt="Old Marble Blast STOP II Versions - out now!!">
-          <div><h4><a href="https://pastareal.github.io/marbleblastmods"><span>Old Marble Blast STOP II versions are in this website. DOWNLOAD NOW!</span></a></h4></div>
+          <div><h4 style="margin: 0; padding: 0;"><a href="marbleblastmods/index.html"><span>Old Marble Blast STOP II versions are in this website. DOWNLOAD NOW!</span></a></h4></div>
         </div>
 		
       <!-- The dots/circles -->
@@ -229,10 +311,21 @@ body {
 	    <h3>This is my button, feel free to add it to your website! Do not hotlink.</h3>
 	    <a><img src="button/pasta.jpg" style="width:88px;height:31px;"></a>
     </div>
-  </div>
+</div>
+<div class="socials">
+  <h3 style="color:white;">Socials:</h3>
+  <h4><a href="https://www.youtube.com/@pasta_real"><span>YouTube</span></a></h4>
+  <h4><a href="https://github.com/pastareal"><span>Github</span></a></h4>
+  <h4><a href="https://archive.org/details/@no_name982"><span>Internet Archive</span></a></h4>
+  <h4 style="color:white;">Discord: pasta_fake</h4>
+  <h4><a href="https://www.speedrun.com/users/pasta_real"><span>Speedrun.com</span></a></h4>
+  <h4><a href="https://www.twitch.tv/pasta_real"><span>Twitch</span></a></h4>
+  <h4><a href="https://x.com/yeehawpasta"><span>Twitter</span></a></h4>
+  <h4><a href="https://marbleblast.com/index.php/forum/user/30859-pasta-real"><span>MarbleBlast.com</span></a></h4>
+  <h4><a href="https://marbleland.vaniverse.io/profile/72"><span>Marbleland</span></a></h4>
 </div>
 <div class="secondtext">
-  <h3>Visitors by country: (if you can't see it than please disable your adblocker)</h3>
+  <h3 style="color:white;">Visitors by country: (if you can't see it than please disable your adblocker)</h3>
   <a href="https://info.flagcounter.com/bzw9"><img src="https://s01.flagcounter.com/count2/bzw9/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 </div>
 <style>
