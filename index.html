@@ -15,7 +15,8 @@
   <meta name="twitter:title" content="pasta_real's Website">
   <meta name="twitter:description" content="pasta_real's Website!">
   <meta name="twitter:image" content="website.png">
-  <meta name="twitter:card" content="pasta.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="google-site-verification" content="0nG7bnV1YqJ9OZbc_6QPMLdMiV-2arGKPj-Iz_dEupY" />
   <style>
   .content {
     display: inline;
@@ -228,6 +229,7 @@ body {
   <li><a href="index.html" class="iconnavbar"><img src="pasta.png" alt="pasta_real's Website" width="40" height="40"/></a></li>
   <li><a href="index.html">Home</a></li>
   <li><a href="news.html">News</a></li>
+  <li><a href="/blog/">Blog</a></li>
   <div class="dropdown">
     <button class="dropbtn">Games ▼
     </button>
@@ -242,17 +244,18 @@ body {
     </button>
     <div class="dropdown-content">
       <a href="dlsm/index.html">More Stuff</a>
+	  <a href="thegurtstory/index.html">The Gurt Story</a>
     </div>
   </div>
   <li><a href="contact/index.html">Contact</a></li>
-  <li><a href="about/index.html">About</a></li>
+  <li><a onclick="about()">About</a></li>
   <script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld&down=async" async></script>
   <noscript><a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld" border="0" title="website counter" alt="website counter"></a></noscript>
   <div class="counter" id="sfc96b9ybfjs7klqzslpd6frfxynu4qf5ld"></div>
 </ul>
 <div class="content">
   <div class="firsttext">
-    <h3 style="color:white;">Hi! I'm pasta_real. I am a Marble Blast gamer, a web and software developer based in Vietnam. (Currently developing in Marble Blast Wildron.)</h3>
+    <h3 style="color:white;">Hi! I'm pasta_real. I am a Marble Blast gamer, a web and software developer. (Currently developing Marble Blast Wildron.)</h3>
     <div class="list">
       <a href="wildron/index.html"><div>
         <img src="W.png" alt="Marble Blast Wildron">
@@ -311,18 +314,6 @@ body {
 	    <h3>This is my button, feel free to add it to your website! Do not hotlink.</h3>
 	    <a><img src="button/pasta.jpg" style="width:88px;height:31px;"></a>
     </div>
-</div>
-<div class="socials">
-  <h3 style="color:white;">Socials:</h3>
-  <h4><a href="https://www.youtube.com/@pasta_real"><span>YouTube</span></a></h4>
-  <h4><a href="https://github.com/pastareal"><span>Github</span></a></h4>
-  <h4><a href="https://archive.org/details/@no_name982"><span>Internet Archive</span></a></h4>
-  <h4 style="color:white;">Discord: pasta_fake</h4>
-  <h4><a href="https://www.speedrun.com/users/pasta_real"><span>Speedrun.com</span></a></h4>
-  <h4><a href="https://www.twitch.tv/pasta_real"><span>Twitch</span></a></h4>
-  <h4><a href="https://x.com/yeehawpasta"><span>Twitter</span></a></h4>
-  <h4><a href="https://marbleblast.com/index.php/forum/user/30859-pasta-real"><span>MarbleBlast.com</span></a></h4>
-  <h4><a href="https://marbleland.vaniverse.io/profile/72"><span>Marbleland</span></a></h4>
 </div>
 <div class="secondtext">
   <h3 style="color:white;">Visitors by country: (if you can't see it than please disable your adblocker)</h3>
@@ -425,6 +416,10 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 } 
+
+function about() {
+  alert("Just read the first line of the homepage man");
+}
 </script>
 </body>
 

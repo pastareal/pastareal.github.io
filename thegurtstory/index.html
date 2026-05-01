@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Gurt Story</title>
+  <link rel="icon" type="image/png" href="../pasta.png">
+  <meta property="og:image" content="../background.jpg">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="the gurt story">
+  <meta property="og:description" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="the gurt story">
+  <meta name="keywords" content="pasta_real, Marble Blast, pasta, yeehaw, yeehawpasta, pasta_fake, gurt story, the gurt story">
+  <meta name="author" content="The Gurt Story">
+  <meta name="twitter:title" content="the gurt story">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="../background.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+  .content {
+    display: inline;
+    margin: 15px;
+    border: 0;
+    padding: 0;
+  }
+
+  .firsttext {
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0;
+    padding: 0;
+  }
+
+  .secondtext {
+    position: static;
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0;
+    padding: 0;
+  }
+
+  .hell {
+    float: right;
+    width: 650px;
+    height: 400px;
+    box-sizing: content-box;
+  }
+
+  .heaven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar ul {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  ul li {
+    display: inline;
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+  }
+  
+  .navbar .iconnavbar {
+    margin: 0;
+	padding: 0;
+	border: 0;
+  }
+
+  ul li img {
+    display: block;
+  }
+
+  ul li a:hover {
+    background-color: #111111;
+  }
+
+  body { margin:0; }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .counter {
+    float: right;
+    position: relative;
+  }
+  
+  .list {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: absolute;
+	left: 0;
+  }
+
+  .list div {
+    height: 35%;
+	width: 15%;
+    display: inline;
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+  
+  .list a {
+    height: 35%;
+	width: 15%;
+    display: inline;
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+  
+  .list div h2 {
+    text-align: center;
+  }
+  
+  .list div p {
+    text-align: center;
+	font-size: 18px;
+  }
+  
+  .list div img {
+    display: block;
+    margin: auto;
+    align: center;
+	height: 80%;
+	width: 80%;
+  }
+  
+  .top-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .below-text {
+    margin-top: 15px;
+  }
+  
+  .socials {
+    clear: both;
+	margin: 10px;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+  </style>
+</head>
+
+<style>
+body {
+  background-image: url('../background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style> 
+<ul class="navbar";>
+  <li><a href="../index.html" class="iconnavbar"><img src="../pasta.png" alt="pasta_real's Website" width="40" height="40"/></a></li>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../news.html">News</a></li>
+  <li><a href="/blog/">Blog</a></li>
+  <div class="dropdown">
+    <button class="dropbtn">Games ▼
+    </button>
+    <div class="dropdown-content">
+      <a href="../marbleblastmods/index.html">Marble Blast Modifications</a>
+	  <a href="../mbwonder/index.html">Marble Blast Wonder</a>
+	  <a href="../wildron/index.html">Marble Blast Wildron</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Others ▼
+    </button>
+    <div class="dropdown-content">
+      <a href="../dlsm/index.html">More Stuff</a>
+	  <a href="../thegurtstory/index.html">The Gurt Story</a>
+    </div>
+  </div>
+  <li><a href="../contact/index.html">Contact</a></li>
+  <li><a onclick="about()">About</a></li>
+  <script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld&down=async" async></script>
+  <noscript><a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld" border="0" title="website counter" alt="website counter"></a></noscript>
+  <div class="counter" id="sfc96b9ybfjs7klqzslpd6frfxynu4qf5ld"></div>
+</ul>
+
+<h1 style="text-align:center; color:white;">The Gurt Story</h1>
+
+<h3 style="color:white;">Back in 2025, I originally wrote the Gurt Story on the Crazy Cattle 3D Discord server, just for fun. It follows the adventures of main characters gurt and yo. Each episode was written in a limit of 2000 characters, which is the default Discord character limit. There was planned to be a chapter 2 where the yo brothers save the world from niche memes and to start the great meme reset of January 1st 2026, which didn't happen, and I ended the series there.</h3>
+
+<div style="background-color:white; margin:10px;">
+  <h2 style="text-align: center; vertical-align:top; float: left;">Season 1 Episode 1</h2><h2 style="text-align:right;">6/6/2025</h2>
+  <pre style="text-align: left">
+
+
+gurt: yo!
+yo: what's up?
+what: no I'm not up man!
+not up: bro you're not up yo!
+yo: who just called me?
+me: I think it's him!
+him: it's not me, it's what!
+what: you're just lying bro!
+lying: he is not me!
+me: yes he is not me!
+
+in the end, yo, what, me, him, lying argue, while gurt and not up eats popcorn together, watching the argument.
+
+the argument: why you watching me?
+you: no why you watching me?
+the argument: you're watching yourself!
+watching yourself: no you aren't me!
+
+me runs up to the argument, you and watching yourself saying: WHO'S CALLING ME?
+the whole crowd goes silent.
+
+in silent:
+
+guy: oh man today is a wonderful day today! the sun is shining, the birds are chirping, and I am-
+
+an entire truck then crashed into guy's house and the whole crowd screams: GAY TODAY!
+
+guy: who are you guys??
+the whole crowd: we are ourselves!
+guy: tell me the truth!
+the whole crowd: no!
+
+guy enrages in anger, but then another guy comes in, seeing guy and the truck.
+
+another guy: what happened?
+guy: these idiots somehow crashed into my room and they are not telling the truth!
+another guy: what do you mean? we live in the 59th floor!
+guy: wait... so we don't actually live on the ground floor?
+
+guy now realizes he's gone blind since 1999, but only a special kind of blindness has him affected.
+
+guy: hold up... isn't that what I think it is?
+
+in a day in 1999, guy was just dilly dallying on the road when suddenly, he was hit by the same truck that hit his room! the amount of shock that he felt when seeing the same truck crashing into his room had somehow fixed his blindness!
+
+guy finally sighs in relief, questioning: if any of you win against me in super smash bros melee, I would forgive you guys, otherwise, I would sue you for destruction of property!!
+
+each and everyone took together to try to beat guy, but every attempt failed but one. lying took the player 2 controller, choosing mario. lying did a 360 no scope - and that was it for guy.
+</pre>
+</div>
+<br>
+<div style="background-color:white; margin:10px;">
+  <h2 style="text-align: center; vertical-align:top; float: left;">Season 1 Episode 2</h2><h2 style="text-align:right;">10/6/2025</h2>
+  <pre style="text-align: left">
+
+
+???: it's lunch time buckos!
+gurt: hey guy
+guy: WHAT?
+gurt: who's that guy?
+guy: me?
+gurt: no! the guy telling us that it's our lunch time?
+guy: it's not "our" lunch time, it's my lunch time. you ain't got no food! btw that guy is another another guy.
+the whole crowd: another another guy?
+
+another another guy sees the room in disbelief. 
+
+another another guy: WHO ARE THOSE PEOPLE?
+the whole crowd: dawg stop screaming.
+another another guy: dawg? that's what you call me? I'm calling the police.
+guy: wait... if you call the police, you would get arrested!
+another guy: yeah tbh he's fr
+lying: ts pmo icl istg ru fr rn?
+gurt: SYBAU!
+lying: d u h2 co mf, it's 2025 alr, evbd ks ts.
+gurt: I h8 u srsly.
+me: DUDE what are you saying?
+not up: lying or gurt?
+me: both!
+not up: I think he meant: this shiggles put me on I can't lie instatrgam are you for real right now?
+yo: bro you got it all wrong boomer...
+lying: al I dd lz agw guy on ssbm.
+guy: good, good... these gen z, or as I like to call, flortmahiggers, just say some zuma shiggles and just call that a "conversation". like what are up with these flortmahiggers?
+gurt: dawg you're up on drugs and western films.
+guy: I don't do drugs!! I would tell the police if I did!
+gurt: that's ridiculous! you'd call the police if you did?
+guy: yeah!
+the argument: alright I'm enough of this bs.
+
+the argument exited the truck and beat the living shiggles out of guy. he had said the truth all along. guy is NOT strong. at all.
+
+guy: ouch! how dare you! 2 of my teeth fell out!
+the argument: are those baby teeth? let me remove all of them!
+guy: ow! ah! how am I supposed to eat without any teeth?
+the argument: starve for 6 months and you're good to go.
+guy: but you left me some bloodstains and stuff. I'm gonna get an infection with this much stains!
+the argument: I bet mosquitoes will also suck on them too. good luck with that!
+lying: that's what you get for losing at super smash bros melee! now STOP YAPPING!!!
+</pre>
+</div>
+<br>
+<div style="background-color:white; margin:10px;">
+  <h2 style="text-align: center; vertical-align:top; float: left;">Season 1 Episode 3</h2><h2 style="text-align:right;">13/6/2025</h2>
+  <pre style="text-align: left">
+
+
+yo: yo gurt!
+gurt: yo yo!
+yo: 🪀
+gurt: dude did you actually transform into a yo yo?
+yo: 🪀🪀🪀🪀🪀
+gurt: DUDE STOP IT!
+yo: stop what?
+gurt: we are on an universe where all the things we do are being recorded onto books!
+yo: dude you can't record onto books! these is no such thing as a book recorder!
+gurt: oh yeah... music recorder, video recorder,... you kinda have a point there.
+yo: you see! I'm always right!
+gurt: and I'm always left?
+yo: no you're always wrong.
+him: and I'm always on the middle!
+yo: shut up him, there is no inbetween!
+
+in between:
+
+no: what the hell am I doing here?
+gurt: you're being recorded onto an universe where people use that information to make books.
+no: what is a book?
+gurt: smh...
+
+back in silent:
+
+gurt: and also you can't use emojis, when you're literally recorded onto a book.
+yo: I already told you! there is no such thing as a book recorder!
+gurt: yes but you still can't use emojis on books!
+yo: ö̶́̐k̷̎͑.̷̏͘
+gurt: dude that won't render onto the book too!
+yo: y̵̒͝o̷͑͝ű̴̄ ̶̛͝d̷͊̌o̶͗̔n̸̑̋'̸̄́t̶̒͐ ̷render on ͂̎b̴̍̚ỏ̸oks, ỳo̷͊̎ǘ̵͝ ̵͒̈w̷͌̕rite on b͂ő̴̌o̵͂́k̶̈́͝s̴͊̕!̷̃̚
+gurt: STOP IT!!! THE TEXT HERE WILL OVERFLOW THE CHARACTER LIMIT ON DISCORD!!!!
+</pre>
+</div>
+<br>
+<div style="background-color:white; margin:10px;">
+  <h2 style="text-align: center; vertical-align:top; float: left;">Season 1 Episode 4</h2><h2 style="text-align:right;">23/7/2025</h2>
+  <pre style="text-align: left">
+
+
+yo: yo gurt!
+gurt: yo yo!
+yo: yo gurt yo!
+gurt: yo yo yo!
+yo: yo gurt yo gurt!
+gurt: ok I actually want to stop reality from being broken.
+yo: yo gurt yo gurt yo gurt!
+gurt: STOP IT!
+yo: ok man... you're so rude!
+???: ...
+yo: what was that?
+another another guy: idk
+???: I am...
+yo: YO I swear I heard somebody say!
+another guy: everybody saids, wdym?
+Emperor Munchkin the LXIII: hello!
+yo: YO WHO ARE YOU! AAAAAAAAAAAAAAAAAA!
+Emperor Munchkin the LXIII: what's there to be scared of? I am Emperor Munchkin the LXIII! nice to meet you.
+yo: you scared tf out of me!
+Emperor Munchkin the LXIII: people these days are so weak...
+yo: js sybau, ts pmo.
+Emperor Munchkin the LXIII: you do NOT swear to me! I am an emperor, and I can do whatever I want! including making you GET OUT of the country!
+yo: smh... just talk to Princess Bartholomew Accord the XXIX... she'll do everything for me, including making me Lord Yo the CCIL if she dies...
+gurt: what you guys talking here?
+
+the abhorrible smell of gurt's breath eventually makes Emperor Munchkin the LXIII die. gurt sees the dead Emperor Munchkin the LXIII, and...
+
+gurt: I HEREBY DECLARE MYSELF AS EMPEROR GURT THE 1ST!
+yo: yeah, so?
+gurt: I am making a new law: is to stop counting in the Roman numerals and switch to the Arabic numerals!
+yo: and?
+gurt: add the st, nd, rd and th at the end too.
+yo: and?
+gurt: I have something to say to you yo.
+yo: what is it?
+gurt: when I die, be sure to declare yourself as Emperor Yo the 1st!
+yo: but I'm also friends with Princess Bartholomew Accord the XXIX... I want to be Lord Yo the CCIL!
+gurt: nuh uh I ain't letting you go that easily. be friends with that princess, and I will break that friendship!
+yo: ok... but why we gotta stop using the Roman numerals and switch to the Arabic numerals?
+gurt: because it's outdated! the Roman numerals are made when the Roman Empire still exists!
+yo: so as the Arabic numerals...
+gurt: just stfu. I won't let that slide my friend.
+</pre>
+</div>
+<br>
+<div style="background-color:white; margin:10px;">
+  <h2 style="text-align: center; vertical-align:top; float: left;">Season 1 Episode 5</h2><h2 style="text-align:right;">27/10/2025</h2>
+  <pre style="text-align: left">
+
+
+the yogurt brothers walk past a nearby school in silent. in there they bump in every single student in that school. 
+
+yo: yo gurt!
+gurt: yo yo!
+yo: 🪀 
+gurt: stop it please!
+yo: ok vro 🥀 
+gurt: let's bump all students of this school!
+yo: HELL YEAH!!!!!!!!!!!!!!!!!!!!!! 🇺🇸 
+gurt: COULD YOU STOP USING EMOJIS IN THIS STORY!????
+yo: dawg you too chalant!
+gurt: yeah you're right...
+
+in total, yo and gurt bumped 519,67 students of the school.
+
+gurt: wait hold up... what's that ,67 coming from?
+
+oh yeah yo bumped a disabled student.
+
+gurt: how could you do that yo!?
+yo: you didn't say WHICH type of students!!
+gurt: yeah you're right again...
+
+here are some of the students reactions:
+
+student 1: I'm gonna turn them into the khaby lame mechanism if they bump me one more time!!!
+student 2: I'm 41 but I got 41 gold.
+jayden: my bus is here!
+
+gurt: hey narrator?
+
+yes?
+
+gurt: how did you know jayden's name?
+
+first of all, how are you talking to me? that's breaking the 4th dimensional law!
+
+gurt: worry about that later. now answer my question.
+
+I was just doing diddy blud things on the calculator feeling like albert einstein when I got his name as an answer!
+
+gurt: a calculator shouldn't do that... it's just numbers and stuff!!
+
+my math thesis got so hard that my homework now entirely uses letters.
+
+gurt: damn I feel bad... the huzz is gonna stay away from you if your math teacher continues to do that!
+
+yeah man life is hard...
+
+yo: dude gurt!
+gurt: what yo?
+yo: I got you chicken stars while you were talking to the narrator!
+gurt: did you also go out swinging?
+yo: nah man but I did swing my ball to lebron yesterday!
+gurt: the toy soldiers must've ate dippin dots that day...
+yo: nah man they ate fun size bars.
+gurt: I heard that fun sizes bars aren't fun at all!
+yo: really? why aren't they fun?
+student 4: 41 41 41 41.
+yo: yo tf did you say?
+student 4: 41 41 41 41.
+gurt: dude niche memes are taking over the world! we must save it!
+yo: yeah man!
+</pre>
+</div>
+<br>
+<div class="secondtext">
+  <h3 style="color:white;">Visitors by country: (if you can't see it than please disable your adblocker)</h3>
+  <a href="https://info.flagcounter.com/bzw9"><img src="https://s01.flagcounter.com/count2/bzw9/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</div>
+
+<script>
+function about() {
+  alert("Just read the first line of the homepage man");
+}
+</script>
+
+</body>
+</html>

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Free4Mall</title>
-  <link rel="icon" type="image/png" href="pasta.png">
-  <meta property="og:image" content="background.jpg">
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="pasta_real's Website News">
-  <meta property="og:description" content="news">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="news">
+  <title>{{ page.title }}</title>
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/pasta.png">
+  <meta property="og:image" content="{{ site.baseurl }}/website.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="pasta blog: {{ page.title }}">
+  <meta property="og:description" content="pasta blog">
+  <meta name="description" content="pasta blog">
+  <meta name="author" content="pasta_real">
   <meta name="keywords" content="pasta_real, Marble Blast, pasta, yeehaw, yeehawpasta, pasta_fake">
-  <meta name="author" content="pasta_real's Website News">
-  <meta name="twitter:title" content="pasta_real's Website News">
-  <meta name="twitter:description" content="news">
-  <meta name="twitter:image" content="background.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:title" content="pasta blog: {{ page.title }}">
+  <meta name="twitter:description" content="pasta_real's Website!">
+  <meta name="twitter:image" content="{{ site.baseurl }}/website.png">
   <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
   <style>
   .content {
     display: inline;
@@ -213,58 +215,50 @@
     clear: both;
 	margin: 10px;
   }
+  
+  body {
+    background-image: url('{{ site.baseurl }}/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
   </style>
-</head>
-
-<style>
-body {
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-</style> 
 <ul class="navbar";>
-  <li><a href="index.html" class="iconnavbar"><img src="pasta.png" alt="pasta_real's Website" width="40" height="40"/></a></li>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="news.html">News</a></li>
+  <li><a href="{{ site.baseurl }}/index.html" class="iconnavbar"><img src="{{ site.baseurl }}/pasta.png" alt="pasta_real's Website" width="40" height="40"/></a></li>
+  <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+  <li><a href="{{ site.baseurl }}/news.html">News</a></li>
   <li><a href="/blog/">Blog</a></li>
   <div class="dropdown">
     <button class="dropbtn">Games ▼
     </button>
     <div class="dropdown-content">
-      <a href="marbleblastmods/index.html">Marble Blast Modifications</a>
-	  <a href="mbwonder/index.html">Marble Blast Wonder</a>
-	  <a href="wildron/index.html">Marble Blast Wildron</a>
+      <a href="{{ site.baseurl }}/marbleblastmods/index.html">Marble Blast Modifications</a>
+	  <a href="{{ site.baseurl }}/mbwonder/index.html">Marble Blast Wonder</a>
+	  <a href="{{ site.baseurl }}/wildron/index.html">Marble Blast Wildron</a>
     </div>
   </div> 
   <div class="dropdown">
     <button class="dropbtn">Others ▼
     </button>
     <div class="dropdown-content">
-      <a href="dlsm/index.html">More Stuff</a>
-	  <a href="thegurtstory/index.html">The Gurt Story</a>
+      <a href="{{ site.baseurl }}/dlsm/index.html">More Stuff</a>
+	  <a href="{{ site.baseurl }}/thegurtstory/index.html">The Gurt Story</a>
     </div>
   </div>
-  <li><a href="contact/index.html">Contact</a></li>
+  <li><a href="{{ site.baseurl }}/contact/index.html">Contact</a></li>
   <li><a onclick="about()">About</a></li>
   <script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld&down=async" async></script>
   <noscript><a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=96b9ybfjs7klqzslpd6frfxynu4qf5ld" border="0" title="website counter" alt="website counter"></a></noscript>
   <div class="counter" id="sfc96b9ybfjs7klqzslpd6frfxynu4qf5ld"></div>
 </ul>
 
-<h1 style="text-align:center; color:white;">pasta_real's Website News</h1>
+<div style="background-color:white; margin:10px; padding:10px;">
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <h2 style="margin:0;">{{ page.title }}</h2>
+    <span>{{ page.date | date: "%B %d, %Y" }}</span>
+  </div>
 
-<div style="background-color:white; margin:10px;">
-  <h2>2/5/2026: A whole lot of updates. The Gurt Story is available on my website now, as well as more other download links. The website has also been on Google Search Console and Bing Webmasters to make the website more accessible to searchers. Have fun =))</h2>
-</div>
-
-<div style="background-color:white; margin:10px;">
-  <h2>22/2/2026: Marble Blast Wildron Demo is released! <a href="wildron/index.html"><h2>Check it out!</h2></a> The website also got a huge revamp, removed Eaglercraft section, added Marble Blast Wildron section and updated way too much stuff. Have fun!</h2>
-</div>
-<div class="secondtext">
-  <h3 style="color:white;">Visitors by country: (if you can't see it than please disable your adblocker)</h3>
-  <a href="https://info.flagcounter.com/bzw9"><img src="https://s01.flagcounter.com/count2/bzw9/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  {{ content }}
 </div>
 
 <script>
@@ -272,6 +266,5 @@ function about() {
   alert("Just read the first line of the homepage man");
 }
 </script>
-
 </body>
 </html>
