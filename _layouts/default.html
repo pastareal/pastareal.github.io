@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/pasta.png">
+  <meta property="og:image" content="{{ site.baseurl }}/website.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="pasta blog: {{ page.title }}">
+  <meta property="og:description" content="pasta blog">
+  <meta name="description" content="pasta blog">
+  <meta name="author" content="pasta_real">
+  <meta name="keywords" content="pasta_real, Marble Blast, pasta, yeehaw, yeehawpasta, pasta_fake">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:title" content="pasta blog: {{ page.title }}">
+  <meta name="twitter:description" content="pasta_real's Website!">
+  <meta name="twitter:image" content="{{ site.baseurl }}/website.png">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <style>
+  .content {
+    display: inline;
+    margin: 15px;
+    border: 0;
+    padding: 0;
+  }
+
+  .firsttext {
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0;
+    padding: 0;
+  }
+
+  .secondtext {
+    position: static;
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0;
+    padding: 0;
+  }
+
+  .hell {
+    float: right;
+    width: 650px;
+    height: 400px;
+    box-sizing: content-box;
+  }
+
+  .heaven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar ul {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  ul li {
+    display: inline;
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+  }
+  
+  .navbar .iconnavbar {
+    margin: 0;
+	padding: 0;
+	border: 0;
+  }
+
+  ul li img {
+    display: block;
+  }
+
+  ul li a:hover {
+    background-color: #111111;
+  }
+
+  body { margin:0; }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .counter {
+    float: right;
+    position: relative;
+  }
+  
+  .list {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: absolute;
+	left: 0;
+  }
+
+  .list div {
+    height: 35%;
+	width: 15%;
+    display: inline;
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+  
+  .list a {
+    height: 35%;
+	width: 15%;
+    display: inline;
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+  
+  .list div h2 {
+    text-align: center;
+  }
+  
+  .list div p {
+    text-align: center;
+	font-size: 18px;
+  }
+  
+  .list div img {
+    display: block;
+    margin: auto;
+    align: center;
+	height: 80%;
+	width: 80%;
+  }
+  
+  .top-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .below-text {
+    margin-top: 15px;
+  }
+  
+  .socials {
+    clear: both;
+	margin: 10px;
+  }
+  
+  body {
+    background-image: url('{{ site.baseurl }}/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  </style>
+<ul class="navbar";>
+  <li><a href="{{ site.baseurl }}/index.html" class="iconnavbar"><img src="{{ site.baseurl }}/pasta.png" alt="pasta_real's Website" width="40" height="40"/></a></li>
+  <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+  <li><a href="{{ site.baseurl }}/news.html">News</a></li>
+  <li><a href="/blog/">Blog</a></li>
+  <div class="dropdown">
+    <button class="dropbtn">Games ▼
+    </button>
+    <div class="dropdown-content">
+      <a href="{{ site.baseurl }}/marbleblastmods/index.html">Marble Blast Modifications</a>
+	  <a href="{{ site.baseurl }}/mbwonder/index.html">Marble Blast Wonder</a>
+	  <a href="{{ site.baseurl }}/wildron/index.html">Marble Blast Wildron</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Others ▼
+    </button>
+    <div class="dropdown-content">
+      <a href="{{ site.baseurl }}/dlsm/index.html">More Stuff</a>
+	  <a href="{{ site.baseurl }}/thegurtstory/index.html">The Gurt Story</a>
+	  <a href="{{ site.baseurl }}/blank.html">Blank Page</a>
+    </div>
+  </div>
+  <li><a href="{{ site.baseurl }}/contact/index.html">Contact</a></li>
+  <li><a onclick="about()">About</a></li>
+  <div align=right><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-8bCw9Wax7A7d51a5-9.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=8bCw9Wax7A7d51a5'></script></div>
+</ul>
+
+<div style="background-color:white; margin:10px; padding:10px;">
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <h1 style="margin:0;">{{ page.title }}</h1>
+    <span>{{ page.date | date: "%B %d, %Y" }}</span>
+  </div>
+
+  {{ content }}
+</div>
+
+<script>
+function about() {
+  alert("Just read the first line of the homepage man");
+}
+</script>
+</body>
+</html>
