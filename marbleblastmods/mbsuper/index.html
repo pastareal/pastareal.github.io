@@ -278,19 +278,13 @@ body {
 </div>
 <h1><a style="background-color:white; margin:10px;"><span>Download:</span></a></h1>
 <div style="background-color:white; margin:10px; margin-right:30%;">
-  <h2><a><span>Version: Beta 3.7 (leaked multiplayer build)</span></a></h2>
-  <h2><a><span>Build Date: November 17th 2014</span></a></h2>
-  <h2><a><span>Release Date: June 16th 2025</span></a></h2>
-  <h2><a><span>Size: 179.3MB</span></a></h2>
-  <hr>
   <h2><a><span>Version: Commit 8dd71f6140c6b7ac7b953ee7b52678fd8d9a98ed Git (last build)</span></a></h2>
   <h2><a><span>Build Date: July 12th 2015</span></a></h2>
   <h2><a><span>Release Date: March 29th 2025 (initial: December 19th 2015)</span></a></h2>
   <h2><a><span>Size: 239.24MB</span></a></h2>
 </div>
 <div style="background-color:white; margin:10px; text-align: center;">
-  <h2><a href="#" onclick="downloadMBSuperBeta37(); return false;"><span>Marble Blast Super Beta 3.7 Download</span></a> - Downloads: <span id="downloadMBSuperBeta37">Loading...</span></h2>
-  <h2><a href="https://www.mediafire.com/file/muse1rpbc372g50/marble-blast-super-8dd71f6140c6b7ac7b953ee7b52678fd8d9a98ed.zip/file"><span>Marble Blast Super Last Build Download</span></a></h2>
+  <h2><a href="https://www.mediafire.com/file/muse1rpbc372g50/marble-blast-super-8dd71f6140c6b7ac7b953ee7b52678fd8d9a98ed.zip/file"><span>Download</span></a></h2>
   <h1>Thanks HumanGamer for giving permission to distribute the mod!!</h1>
 </div>
 <div class="secondtext">
@@ -302,25 +296,6 @@ body {
 function about() {
   alert("Just read the first line of the homepage man");
 }
-function downloadMBSuperBeta37() {
-    fetch("https://api.counterapi.dev/v2/pasta-reals-team-4381/marble-blast-super-beta-37/up");
-
-    window.open(
-        "https://mega.nz/file/sZg0HZyY#9IEQwKOMSVdkpl0ZU6T1O_1rT72Sx0Qddovu7lL0BXQ",
-        "_blank"
-    );
-}
-
-fetch("https://api.counterapi.dev/v2/pasta-reals-team-4381/marble-blast-super-beta-37")
-    .then(r => r.json())
-    .then(data => {
-        document.getElementById("downloadCountmbsuperbeta37").textContent =
-            data.data.up_count;
-    })
-    .catch(() => {
-        document.getElementById("downloadCountmbsuperbeta37").textContent =
-            "sexxington";
-    });
 </script>
 
 </body>
